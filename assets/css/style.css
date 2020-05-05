@@ -125,7 +125,6 @@ nav {
 .ultimos-trabajos h3 {
   color: #373a3c;
   font-family: "Oswald", sans-serif;
-  font-weight: 600;
   font-size: 1.4375em;
 }
 
@@ -135,16 +134,45 @@ nav {
   font-size: 1em;
 }
 
+.ultimos-trabajos .card-hr {
+  border-color: #000;
+  width: 100%;
+}
+
+.ultimos-trabajos .card {
+  border-style: none;
+}
+
+/* Sección Formulario */
+.formulario {
+  background-color: #fff;
+}
+
+.formulario h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 3.25em;
+  color: #373a3c;
+  text-transform: uppercase;
+}
+
+.formulario hr {
+  border-color: #373a3c;
+  border-width: 2px;
+  width: 2em;
+}
+
 /* Footer */
 footer {
-  background-color: #373a3c;
+  background-color: #660066;
   color: #ffffff;
 }
 
-footer span {
-  font-family: "Lobster", cursive;
-  font-size: 2.875em;
-  color: #ffffff;
+footer h2 {
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 3.33333em;
 }
 
 /*
