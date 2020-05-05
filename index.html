@@ -10,18 +10,194 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-
-
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 
 <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <!-- marca en el navbar -->
+            <a class="navbar-brand" href="#"><span class="portfolio-logo">M</span></a>
 
+            <!-- navbar-toggler = menu de hamburguesa -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Elementos del NavBar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#recipes">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#us">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="text-center">
+                <span>Yo Soy</span>
+                <hr>
+                Magdalena
+            </h1>
+        </div>
+    </section>
+
+    <!-- Sección descripción -->
+    <section class="descripcion my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis
+                        ante <br> nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.
+                        <hr class="mt-4">
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                        consectetur, ultrices
+                        justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                        Curabitur vel lacinia nisi.
+                        Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis
+                        sit amet gravida in,
+                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit,
+                        euismod ipsum eu, lobortis
+                        nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
+                        massa pellentesque, id
+                        interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque
+                        consectetur, ultrices
+                        justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                        Curabitur vel lacinia nisi.
+                        Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis
+                        sit amet gravida in,
+                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit,
+                        euismod ipsum eu, lobortis
+                        nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
+                        massa pellentesque, id
+                        interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Mi Experiencia -->
+    <section class="mi-experiencia">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Mi Experiencia
+                        <hr class="mt-4">
+                    </h2>
+                </div>
+
+                <div class="col-12 col-lg-6 text-center">
+                    <i class="fab fa-empire fa-9x mb-3"></i>
+                    <h3>Stormtrooper</h3>
+                    <p>1980 - 2014</p>
+                </div>
+                <div class="col-12 col-lg-6 text-center">
+                    <i class="fab fa-medium fa-9x mb-3"></i>
+                    <h3>Desarrolladora Rails</h3>
+                    <p>2014 - 2018</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Mis Últimos Trabajos -->
+    <section class="ultimos-trabajos container-fluid my-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h2 class="text-center text-white mt-5">Mis últimos trabajos
+                        <hr class="mt-4 mb-5">
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card-deck">
+                    <div class="card mb-5">
+                        <img src=" assets/img/meet_coffee.png" class="card-img-top" alt="proyecto meet&coffe">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">Meet&Coffe</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <img src="assets/img/iguana_page.png" class="card-img-top" alt="proyecto iguana page">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">Iguana Page</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <img src="assets/img/suricata.png" class="card-img-top" alt="proyecto suricata">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">Suricata</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="card-deck">
+                    <div class="card mb-5">
+                        <img src=" assets/img/cuppon.png" class="card-img-top" alt="proyecto cuppon">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">Cuppon</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <img src="assets/img/ricomida.png" class="card-img-top" alt="proyecto ricomida">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">Ricomida</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-5">
+                        <img src="assets/img/dmark.png" class="card-img-top" alt="proyecto dmark">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold text-left">DMark</h3>
+                            <p class="text-left">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>hola</footer>
 
 
 

@@ -1,0 +1,169 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap");
+/*font-family: 'Oswald', sans-serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+/*font-family: 'Open Sans', sans-serif;*/
+
+/* Estilos del banner Hero */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Nav section */
+nav {
+  color: #ffffff;
+  background-color: #660066;
+}
+
+.portfolio-logo {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 2.5em;
+}
+
+/* Hero section */
+.hero-section {
+  text-align: right;
+  background-image: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+}
+
+.hero-section h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 650px;
+}
+
+.hero-section hr {
+  border-color: #fff;
+  border-width: 2px;
+  width: 300px;
+}
+
+.hero-section span {
+  font-weight: 200;
+}
+/* FIN HERO */
+
+/* Sección descripción personal */
+.descripcion h2 {
+  color: #373a3c;
+  font-weight: 600;
+  font-size: 1.5625em;
+  line-height: 50px; /*Interlineado*/
+}
+
+.descripcion hr {
+  border-color: #373a3c;
+  border-width: 2px;
+  width: 4em;
+}
+
+.descripcion p {
+  line-height: 2.5em;
+}
+/*FIN DESCRIPCIÓN PERSONAL*/
+
+/* Sección Mi Experiencia*/
+.mi-experiencia h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 3.25em;
+  color: #373a3c;
+  text-transform: uppercase;
+}
+
+.mi-experiencia hr {
+  border-color: #373a3c;
+  border-width: 2px;
+  width: 2em;
+}
+
+.mi-experiencia i {
+  color: #660066;
+}
+
+.mi-experiencia h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.5625em;
+  color: #373a3c;
+}
+
+.mi-experiencia p {
+  font-weight: 300;
+  font-size: 1.5625em;
+  color: #373a3c;
+}
+/*FIN MI EXPERIENCIA*/
+
+/*Sección Últimos Trabajos*/
+.ultimos-trabajos {
+  background-color: #660066;
+}
+
+.ultimos-trabajos h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 3.25em;
+  text-transform: uppercase;
+}
+
+.ultimos-trabajos hr {
+  border-color: #fff;
+  border-width: 2px;
+  width: 2em;
+}
+
+.ultimos-trabajos h3 {
+  color: #373a3c;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 1.4375em;
+}
+
+.ultimos-trabajos p {
+  color: #373a3c;
+  font-weight: 300;
+  font-size: 1em;
+}
+
+/* Footer */
+footer {
+  background-color: #373a3c;
+  color: #ffffff;
+}
+
+footer span {
+  font-family: "Lobster", cursive;
+  font-size: 2.875em;
+  color: #ffffff;
+}
+
+/*
+MEDIA QUERIES
+  Extra small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default in Bootstrap
+  Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 320px) {
+}
+
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
