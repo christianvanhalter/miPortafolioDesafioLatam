@@ -4,6 +4,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 /*font-family: 'Open Sans', sans-serif;*/
 
+/*Variables*/
+:root {
+  --main-color: #1cc8df;
+}
+
 /* Estilos del banner Hero */
 body {
   font-family: "Open Sans", sans-serif;
@@ -12,7 +17,7 @@ body {
 /* Nav section */
 nav {
   color: #ffffff;
-  background-color: #660066;
+  background-color: var(--main-color);
 }
 
 .portfolio-logo {
@@ -87,7 +92,7 @@ nav {
 }
 
 .mi-experiencia i {
-  color: #660066;
+  color: var(--main-color);
 }
 
 .mi-experiencia h3 {
@@ -106,7 +111,7 @@ nav {
 
 /*Sección Últimos Trabajos*/
 .ultimos-trabajos {
-  background-color: #660066;
+  background-color: var(--main-color);
 }
 
 .ultimos-trabajos h2 {
@@ -164,8 +169,8 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #660066;
   color: #ffffff;
+  background-color: var(--main-color);
 }
 
 footer h2 {
@@ -175,6 +180,23 @@ footer h2 {
   font-size: 3.33333em;
 }
 
+footer i {
+  color: #fff !important;
+}
+
+/*Carousel*/
+/* Carrusel */
+.carousel-indicators {
+  top: 190px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
 /*
 MEDIA QUERIES
   Extra small devices (portrait phones, less than 576px)
@@ -182,12 +204,21 @@ MEDIA QUERIES
   Small devices (landscape phones, 576px and up)
 */
 @media (min-width: 320px) {
+  .carousel-indicators {
+    margin-top: 350px;
+  }
 }
 
 @media (min-width: 576px) {
+  .carousel-indicators {
+    margin-top: 300px;
+  }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .carousel-indicators {
+    margin-top: 50px;
+  }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
