@@ -2,5 +2,5 @@
 Proyecto de finalización de unidad - Fundamentos Desarrollo Web.
 
 URL:
-GitHubPages:
-Externo: 
+GitHubPages:https://christianvanhalter.github.io/miPortafolioDesafioLatam/
+Externo: http://www.chrisdiaz.cl/
